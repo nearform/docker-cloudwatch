@@ -1,4 +1,4 @@
-# docker-cloudwatch
+# docker-cloudwatchlogs
 #
 # VERSION 0.1.0
 
