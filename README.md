@@ -70,13 +70,13 @@ This module wraps four [Docker APIs](https://docs.docker.com/reference/api/docke
 * `GET /events`, to detect new containers that will start after the
   module has started
 
-This module wraps
-[docker-loghose](https://github.com/mcollina/docker-loghose) and
-[docker-stats](https://github.com/pelger/docker-stats) to fetch the logs and the stats as a never ending stream of data.
-[cloudwatchlogs-stream](https://github.com/nearform/cloudwatchlogs-stream) to stream the logs to CloudWatch.
+This module wraps:
 
-All the originating requests are wrapped in a
-[never-ending-stream](https://github.com/mcollina/never-ending-stream).
+* [docker-loghose](https://github.com/mcollina/docker-loghose) 
+* [docker-stats](https://github.com/pelger/docker-stats) to fetch the logs and the stats as a never ending stream of data
+* [cloudwatchlogs-stream](https://github.com/nearform/cloudwatchlogs-stream) to stream the logs to CloudWatch
+
+All the originating requests are wrapped in [never-ending-stream](https://github.com/mcollina/never-ending-stream).
 
 ## License
 
