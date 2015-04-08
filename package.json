@@ -1,10 +1,10 @@
 {
-  "name": "docker-cloudwatch",
+  "name": "docker-cloudwatchlogs",
   "version": "1.0.0",
   "description": "Forward all logs from all running docker containers to Cloudwatch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nearform/docker-cloudwatch.git"
+    "url": "https://github.com/nearform/docker-cloudwatchlogs.git"
   },
   "main": "index.js",
   "scripts": {
