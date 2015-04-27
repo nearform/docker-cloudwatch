@@ -1,6 +1,6 @@
 {
   "name": "docker-cloudwatchlogs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Forward all logs from all running docker containers to Cloudwatch",
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
     "end-of-stream": "^1.1.0",
     "minimist": "^1.1.0",
     "through2": "^0.6.3",
-    "cloudwatchlogs-stream": "^1.1.1"
+    "cloudwatchlogs-stream": "^1.2.0"
   }
 }
