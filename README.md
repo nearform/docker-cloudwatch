@@ -39,7 +39,9 @@ var cloudwatchlogs = require('docker-cloudwatchlogs')({
   'secretAccessKey': 'SECRET_KEY',
   'region': 'REGION',
   'logGroupName': 'GROUP_NAME',
-  'logStreamName': 'STREAM_NAME'
+  'logStreamName': 'STREAM_NAME',
+  'bulkIndex': BULK_INDEX,
+  'timeout': TIMEOUT   
 })
 
 // cloudwatch is the source stream with all the

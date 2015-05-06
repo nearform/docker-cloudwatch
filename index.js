@@ -82,6 +82,8 @@ function cli() {
       'region': 'r',
       'logGroupName': 'g',
       'logStreamName': 't',
+      'bulkIndex': 'b',
+      'timeout': 'o'
       //'json': 'j',
       //'stats': 't'
       //'add': 'a'
@@ -95,8 +97,8 @@ function cli() {
 
   if (!(argv.accesskey || argv.secretkey || argv.groupname || argv.streamname || argv.region)) {
     console.log('Usage: docker-cloudwatch [-a ACCESS_KEY] [-k SECRET_KEY]\n' +
-                '                         [-r REGION] [-g GROUP_NAME] [-s STREAM_NAME] [--json]\n');
-
+                '                         [-r REGION] [-g GROUP_NAME] [-s STREAM_NAME] [--json]\n' +
+                '                         [-b BULK_INDEX] [-o TIMEOUT]');
 //                '                         [--no-stats] [-a KEY=VALUE]');
     process.exit(1);
   }
